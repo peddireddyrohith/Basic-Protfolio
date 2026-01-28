@@ -1,0 +1,30 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="150" fill="#f0f4ff"/>
+  
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circle background -->
+  <circle cx="150" cy="150" r="130" fill="url(#logoGradient)"/>
+  
+  <!-- Chat icon - left bubble -->
+  <path d="M 80 110 L 80 180 Q 80 200 100 200 L 140 200 L 150 220 L 140 200 L 100 200 Q 80 200 80 180 Z" fill="white" opacity="0.9"/>
+  
+  <!-- Chat icon - right bubble -->
+  <path d="M 160 80 L 160 140 Q 160 160 180 160 L 210 160 L 215 175 L 210 160 Q 180 160 160 140 Z" fill="white" opacity="0.7"/>
+  
+  <!-- Dots inside left bubble -->
+  <circle cx="95" cy="130" r="4" fill="#4f46e5"/>
+  <circle cx="110" cy="130" r="4" fill="#4f46e5"/>
+  <circle cx="125" cy="130" r="4" fill="#4f46e5"/>
+  
+  <!-- Dots inside right bubble -->
+  <circle cx="175" cy="100" r="3" fill="#6366f1"/>
+  <circle cx="190" cy="100" r="3" fill="#6366f1"/>
+</svg>
